@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4E75291D75650B00C13A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E75281D75650B00C13A9D /* main.m */; };
+		0E4E752C1D75650B00C13A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E752B1D75650B00C13A9D /* AppDelegate.m */; };
+		0E4E75341D75650B00C13A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E75331D75650B00C13A9D /* Assets.xcassets */; };
+		0E4E75371D75650B00C13A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E75351D75650B00C13A9D /* LaunchScreen.storyboard */; };
+		0E4E75421D75650B00C13A9D /* HZTextViewEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E75411D75650B00C13A9D /* HZTextViewEditorTests.m */; };
+		0E4E754D1D75650B00C13A9D /* HZTextViewEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E754C1D75650B00C13A9D /* HZTextViewEditorUITests.m */; };
+		0E4E755E1D75653B00C13A9D /* HZTextViewEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E755B1D75653B00C13A9D /* HZTextViewEditor.m */; };
+		0E4E755F1D75653B00C13A9D /* HZTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E755D1D75653B00C13A9D /* HZTextAttachment.m */; };
+		0E4E75621D75654E00C13A9D /* HZEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E75611D75654E00C13A9D /* HZEditorViewController.m */; };
+		0E4E75651D75673000C13A9D /* HZToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E75641D75673000C13A9D /* HZToolView.m */; };
+		0E4E75671D75693400C13A9D /* selectImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E75661D75693400C13A9D /* selectImage@2x.png */; };
+		0E4E75691D75693D00C13A9D /* selectImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E75681D75693D00C13A9D /* selectImage@3x.png */; };
+		0E4E756D1D7581BC00C13A9D /* HZShowContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E756C1D7581BC00C13A9D /* HZShowContentViewController.m */; };
+		0E4E75701D7594D300C13A9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E756F1D7594D300C13A9D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E4E753E1D75650B00C13A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4E751C1D75650B00C13A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4E75231D75650B00C13A9D;
+			remoteInfo = HZTextViewEditor;
+		};
+		0E4E75491D75650B00C13A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4E751C1D75650B00C13A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4E75231D75650B00C13A9D;
+			remoteInfo = HZTextViewEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4E75241D75650B00C13A9D /* HZTextViewEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZTextViewEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4E75281D75650B00C13A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E4E752A1D75650B00C13A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E4E752B1D75650B00C13A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E4E75331D75650B00C13A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E4E75361D75650B00C13A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E4E75381D75650B00C13A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4E753D1D75650B00C13A9D /* HZTextViewEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZTextViewEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4E75411D75650B00C13A9D /* HZTextViewEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTextViewEditorTests.m; sourceTree = "<group>"; };
+		0E4E75431D75650B00C13A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4E75481D75650B00C13A9D /* HZTextViewEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZTextViewEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4E754C1D75650B00C13A9D /* HZTextViewEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTextViewEditorUITests.m; sourceTree = "<group>"; };
+		0E4E754E1D75650B00C13A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4E755A1D75653B00C13A9D /* HZTextViewEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTextViewEditor.h; sourceTree = "<group>"; };
+		0E4E755B1D75653B00C13A9D /* HZTextViewEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTextViewEditor.m; sourceTree = "<group>"; };
+		0E4E755C1D75653B00C13A9D /* HZTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTextAttachment.h; sourceTree = "<group>"; };
+		0E4E755D1D75653B00C13A9D /* HZTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTextAttachment.m; sourceTree = "<group>"; };
+		0E4E75601D75654E00C13A9D /* HZEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZEditorViewController.h; sourceTree = "<group>"; };
+		0E4E75611D75654E00C13A9D /* HZEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZEditorViewController.m; sourceTree = "<group>"; };
+		0E4E75631D75673000C13A9D /* HZToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZToolView.h; sourceTree = "<group>"; };
+		0E4E75641D75673000C13A9D /* HZToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZToolView.m; sourceTree = "<group>"; };
+		0E4E75661D75693400C13A9D /* selectImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage@2x.png"; sourceTree = "<group>"; };
+		0E4E75681D75693D00C13A9D /* selectImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectImage@3x.png"; sourceTree = "<group>"; };
+		0E4E756A1D756C1F00C13A9D /* HZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZHeader.h; sourceTree = "<group>"; };
+		0E4E756B1D7581BC00C13A9D /* HZShowContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShowContentViewController.h; sourceTree = "<group>"; };
+		0E4E756C1D7581BC00C13A9D /* HZShowContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShowContentViewController.m; sourceTree = "<group>"; };
+		0E4E756E1D7594D300C13A9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E4E756F1D7594D300C13A9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4E75211D75650B00C13A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E753A1D75650B00C13A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E75451D75650B00C13A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4E751B1D75650B00C13A9D = {
+			isa = PBXGroup;
+			children = (
+				0E4E75261D75650B00C13A9D /* HZTextViewEditor */,
+				0E4E75401D75650B00C13A9D /* HZTextViewEditorTests */,
+				0E4E754B1D75650B00C13A9D /* HZTextViewEditorUITests */,
+				0E4E75251D75650B00C13A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E4E75251D75650B00C13A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E75241D75650B00C13A9D /* HZTextViewEditor.app */,
+				0E4E753D1D75650B00C13A9D /* HZTextViewEditorTests.xctest */,
+				0E4E75481D75650B00C13A9D /* HZTextViewEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E4E75261D75650B00C13A9D /* HZTextViewEditor */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E752A1D75650B00C13A9D /* AppDelegate.h */,
+				0E4E752B1D75650B00C13A9D /* AppDelegate.m */,
+				0E4E756E1D7594D300C13A9D /* ViewController.h */,
+				0E4E756F1D7594D300C13A9D /* ViewController.m */,
+				0E4E75721D76765C00C13A9D /* Controller */,
+				0E4E75731D76768A00C13A9D /* View */,
+				0E4E75741D7676B500C13A9D /* model */,
+				0E4E75331D75650B00C13A9D /* Assets.xcassets */,
+				0E4E75351D75650B00C13A9D /* LaunchScreen.storyboard */,
+				0E4E75381D75650B00C13A9D /* Info.plist */,
+				0E4E75271D75650B00C13A9D /* Supporting Files */,
+			);
+			path = HZTextViewEditor;
+			sourceTree = "<group>";
+		};
+		0E4E75271D75650B00C13A9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E75281D75650B00C13A9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E4E75401D75650B00C13A9D /* HZTextViewEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E75411D75650B00C13A9D /* HZTextViewEditorTests.m */,
+				0E4E75431D75650B00C13A9D /* Info.plist */,
+			);
+			path = HZTextViewEditorTests;
+			sourceTree = "<group>";
+		};
+		0E4E754B1D75650B00C13A9D /* HZTextViewEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E754C1D75650B00C13A9D /* HZTextViewEditorUITests.m */,
+				0E4E754E1D75650B00C13A9D /* Info.plist */,
+			);
+			path = HZTextViewEditorUITests;
+			sourceTree = "<group>";
+		};
+		0E4E75721D76765C00C13A9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E756A1D756C1F00C13A9D /* HZHeader.h */,
+				0E4E75601D75654E00C13A9D /* HZEditorViewController.h */,
+				0E4E75611D75654E00C13A9D /* HZEditorViewController.m */,
+				0E4E756B1D7581BC00C13A9D /* HZShowContentViewController.h */,
+				0E4E756C1D7581BC00C13A9D /* HZShowContentViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0E4E75731D76768A00C13A9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E755A1D75653B00C13A9D /* HZTextViewEditor.h */,
+				0E4E755B1D75653B00C13A9D /* HZTextViewEditor.m */,
+				0E4E75631D75673000C13A9D /* HZToolView.h */,
+				0E4E75641D75673000C13A9D /* HZToolView.m */,
+				0E4E75661D75693400C13A9D /* selectImage@2x.png */,
+				0E4E75681D75693D00C13A9D /* selectImage@3x.png */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0E4E75741D7676B500C13A9D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E755C1D75653B00C13A9D /* HZTextAttachment.h */,
+				0E4E755D1D75653B00C13A9D /* HZTextAttachment.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E4E75231D75650B00C13A9D /* HZTextViewEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4E75511D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditor" */;
+			buildPhases = (
+				0E4E75201D75650B00C13A9D /* Sources */,
+				0E4E75211D75650B00C13A9D /* Frameworks */,
+				0E4E75221D75650B00C13A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZTextViewEditor;
+			productName = HZTextViewEditor;
+			productReference = 0E4E75241D75650B00C13A9D /* HZTextViewEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E4E753C1D75650B00C13A9D /* HZTextViewEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4E75541D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditorTests" */;
+			buildPhases = (
+				0E4E75391D75650B00C13A9D /* Sources */,
+				0E4E753A1D75650B00C13A9D /* Frameworks */,
+				0E4E753B1D75650B00C13A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E4E753F1D75650B00C13A9D /* PBXTargetDependency */,
+			);
+			name = HZTextViewEditorTests;
+			productName = HZTextViewEditorTests;
+			productReference = 0E4E753D1D75650B00C13A9D /* HZTextViewEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E4E75471D75650B00C13A9D /* HZTextViewEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4E75571D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditorUITests" */;
+			buildPhases = (
+				0E4E75441D75650B00C13A9D /* Sources */,
+				0E4E75451D75650B00C13A9D /* Frameworks */,
+				0E4E75461D75650B00C13A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E4E754A1D75650B00C13A9D /* PBXTargetDependency */,
+			);
+			name = HZTextViewEditorUITests;
+			productName = HZTextViewEditorUITests;
+			productReference = 0E4E75481D75650B00C13A9D /* HZTextViewEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E4E751C1D75650B00C13A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "XianQing Xing";
+				TargetAttributes = {
+					0E4E75231D75650B00C13A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0E4E753C1D75650B00C13A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0E4E75231D75650B00C13A9D;
+					};
+					0E4E75471D75650B00C13A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0E4E75231D75650B00C13A9D;
+					};
+				};
+			};
+			buildConfigurationList = 0E4E751F1D75650B00C13A9D /* Build configuration list for PBXProject "HZTextViewEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E4E751B1D75650B00C13A9D;
+			productRefGroup = 0E4E75251D75650B00C13A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E4E75231D75650B00C13A9D /* HZTextViewEditor */,
+				0E4E753C1D75650B00C13A9D /* HZTextViewEditorTests */,
+				0E4E75471D75650B00C13A9D /* HZTextViewEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E4E75221D75650B00C13A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E75371D75650B00C13A9D /* LaunchScreen.storyboard in Resources */,
+				0E4E75341D75650B00C13A9D /* Assets.xcassets in Resources */,
+				0E4E75671D75693400C13A9D /* selectImage@2x.png in Resources */,
+				0E4E75691D75693D00C13A9D /* selectImage@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E753B1D75650B00C13A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E75461D75650B00C13A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4E75201D75650B00C13A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E75651D75673000C13A9D /* HZToolView.m in Sources */,
+				0E4E75621D75654E00C13A9D /* HZEditorViewController.m in Sources */,
+				0E4E75701D7594D300C13A9D /* ViewController.m in Sources */,
+				0E4E756D1D7581BC00C13A9D /* HZShowContentViewController.m in Sources */,
+				0E4E752C1D75650B00C13A9D /* AppDelegate.m in Sources */,
+				0E4E755F1D75653B00C13A9D /* HZTextAttachment.m in Sources */,
+				0E4E755E1D75653B00C13A9D /* HZTextViewEditor.m in Sources */,
+				0E4E75291D75650B00C13A9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E75391D75650B00C13A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E75421D75650B00C13A9D /* HZTextViewEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4E75441D75650B00C13A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E754D1D75650B00C13A9D /* HZTextViewEditorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E4E753F1D75650B00C13A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4E75231D75650B00C13A9D /* HZTextViewEditor */;
+			targetProxy = 0E4E753E1D75650B00C13A9D /* PBXContainerItemProxy */;
+		};
+		0E4E754A1D75650B00C13A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4E75231D75650B00C13A9D /* HZTextViewEditor */;
+			targetProxy = 0E4E75491D75650B00C13A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E4E75351D75650B00C13A9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E4E75361D75650B00C13A9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E4E754F1D75650B00C13A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E4E75501D75650B00C13A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E4E75521D75650B00C13A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZTextViewEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4E75531D75650B00C13A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZTextViewEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E4E75551D75650B00C13A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HZTextViewEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZTextViewEditor.app/HZTextViewEditor";
+			};
+			name = Debug;
+		};
+		0E4E75561D75650B00C13A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HZTextViewEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZTextViewEditor.app/HZTextViewEditor";
+			};
+			name = Release;
+		};
+		0E4E75581D75650B00C13A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HZTextViewEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZTextViewEditor;
+			};
+			name = Debug;
+		};
+		0E4E75591D75650B00C13A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HZTextViewEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91jinrong.HZTextViewEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZTextViewEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4E751F1D75650B00C13A9D /* Build configuration list for PBXProject "HZTextViewEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4E754F1D75650B00C13A9D /* Debug */,
+				0E4E75501D75650B00C13A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4E75511D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4E75521D75650B00C13A9D /* Debug */,
+				0E4E75531D75650B00C13A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4E75541D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4E75551D75650B00C13A9D /* Debug */,
+				0E4E75561D75650B00C13A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4E75571D75650B00C13A9D /* Build configuration list for PBXNativeTarget "HZTextViewEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4E75581D75650B00C13A9D /* Debug */,
+				0E4E75591D75650B00C13A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4E751C1D75650B00C13A9D /* Project object */;
+}
